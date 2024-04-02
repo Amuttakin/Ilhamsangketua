@@ -1,0 +1,344 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-size: medium;
+}
+
+.container {
+    width: 100%;
+    height: 50vh;
+    background-image: url(japan.png);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10%;
+    padding: 15%;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+    
+}
+
+nav {
+    background: #fff;
+    border-radius: 30px;
+    padding: 30px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+    
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    font-size: 2rem;
+    padding: 0 10px;
+    margin: 0 20px;
+    cursor: pointer;
+    position: relative;
+}
+
+nav ul li:after {
+    content: '';
+    width: 0;
+    height: 3px;
+    background: darkred;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+
+nav ul li:hover::after {
+    width: 100%;
+}
+.forget
+{
+    text-align: center;
+    font-size: xx-large;
+    color: #fff;
+    border-radius: 30px;
+    padding: 30px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(japan.png);
+}
+h2
+{
+    text-align: center;
+    font-size: x-large;
+}
+p
+{
+
+    padding: 8%;
+    padding-top: 2%;
+    padding-bottom: 4%;
+}
+.input-field
+{
+    text-align: center;
+}
+.aside
+{
+    background-image: url(japan.png);
+    width: 100%;
+    height: 10%;
+    border-radius: 10%;
+    color: #fff;
+    text-align: center;
+    padding: 5%;
+    font-size: xx-large;
+    background-color: #fff;
+}
+.Tokyo
+{
+    text-align: left;
+    font-size: xx-large;
+    
+}
+.tokyo1
+{
+    height: 100%;
+    width: 100%;
+    background-image: url(tokyo1.png);
+}
+.tokyo2
+{
+    height: 100%;
+    width: 100%;
+    background-image: url(tokyo2.png);
+}
+.pe
+{
+    height: 10%;
+    width: 100%;
+    background-image: url(japan.png);
+}
+.kyoto
+{
+    text-align: left;
+    font-size: xx-large;
+    
+}
+.kyoto1
+{
+    height: 100%;
+    width: 100%;
+    background-image: url(kyoto1.png);
+    background-size: cover;
+    background-position: center;
+}
+.kyoto2
+{
+    height: 100%;
+    width: 100%;
+    background-image: url(kyoto2.png);
+    background-size: cover;
+    background-position: center;
+}
+.pe
+{
+    height: 10%;
+    width: 100%;
+    background-image: url(japan.png);
+}
+.nara
+{
+    text-align: left;
+    font-size: xx-large;
+    
+}
+.nara1
+{
+    height: 100%;
+    width: 100%;
+    background-image: url(nara2.png);
+}
+.nara2
+{
+    height: 100%;
+    width: 100%;
+    background-image: url(nara1.png);
+}
+.pe
+{
+    height: 10%;
+    width: 100%;
+    background-image: url(japan.png);
+}
+.Fukushima
+{
+    text-align: left;
+    font-size: xx-large;
+    
+}
+.fukushima1
+{
+    height: 100%;
+    width: 100%;
+    background-image: url(fukushima2.png);
+}
+.fukushima2
+{
+    height: 100%;
+    width: 100%;
+    background-image: url(fukushima1.png);
+}
+.pe
+{
+    height: 10%;
+    width: 100%;
+    background-image: url(japan.png);
+}
+.osaka
+{
+    text-align: left;
+    font-size: xx-large;
+    
+}
+.osaka1
+{
+    height: 100%;
+    width: 100%;
+    background-image: url(osaka2.png);
+}
+.osaka2
+{
+    height: 100%;
+    width: 100%;
+    background-image: url(osaka1.png);
+}
+.pe
+{
+    height: 10%;
+    width: 100%;
+    background-image: url(japan.png);
+}
+.fukuoka
+{
+    text-align: left;
+    font-size: xx-large;
+    
+}
+.fukuoka1
+{
+    height: 100%;
+    width: 100%;
+    background-image: url(fukuoka2.png);
+    background-position: bottom;
+}
+.fukuoka2
+{
+    height: 100%;
+    width: 100%;
+    background-image: url(fukouka1.png);
+}
+.pe
+{
+    height: 10%;
+    width: 100%;
+    background-image: url(japan.png);
+}
+.hokkaido
+{
+    text-align: left;
+    font-size: xx-large;
+    
+}
+.hokkaido1
+{
+    height: 100%;
+    width: 100%;
+    background-image: url(hokkaido1.png);
+}
+.hokkaido2
+{
+    height: 100%;
+    width: 100%;
+    background-image: url(hokkaido2.png);
+}
+.pe
+{
+    height: 10%;
+    width: 100%;
+    background-image: url(japan.png);
+}
+.akita
+{
+    text-align: left;
+    font-size: xx-large;
+    
+}
+.akita1
+{
+    height: 100%;
+    width: 100%;
+    background-image: url(akita2.png);
+}
+.akita2
+{
+    height: 100%;
+    width: 100%;
+    background-image: url(akita1.png);
+}
+.pe
+{
+    height: 10%;
+    width: 100%;
+    background-image: url(japan.png);
+}
+.kagoshima
+{
+    text-align: left;
+    font-size: xx-large;
+    
+}
+.kagoshima1
+{
+    height: 100%;
+    width: 100%;
+    background-image: url(kagoshima1.png);
+    background-position: center;
+}
+.kagoshima2
+{
+    height: 100%;
+    width: 100%;
+    background-image: url(kagoshima2.png);
+}
+.pe
+{
+    height: 10%;
+    width: 100%;
+    background-image: url(japan.png);
+}
+.yamagata
+{
+    text-align: left;
+    font-size: xx-large;
+    
+}
+.yamagata1
+{
+    height: 100%;
+    width: 100%;
+    background-image: url(ginza1.png);
+    background-position: center;
+}
+.yamagata2
+{
+    height: 100%;
+    width: 100%;
+    background-image: url(ginza2.png);
+}
+.pe
+{
+    height: 10%;
+    width: 100%;
+    background-image: url(japan.png);
+}
+
+
+
+
+
